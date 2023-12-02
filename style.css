@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9; 
+    align-items: center;
+    padding: 0 30px;
+}
+
+div img {
+    width: 152px;
+    height: 80px;
+    margin-top: 79px;
+}
+
+div h1 {
+    font-family: 'Poppins';
+    font-size: 26px;
+    margin-top: 67px;
+}
+
+.user_box {
+    width: 356px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #EDEDED;
+    margin-top: 26px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.user_box p {
+    font-family: 'Poppins';
+    font-size: 11px;
+    color: #959595;
+    margin-right: 190px;
+}
+
+.user_box p:hover{
+    font-size: 10px;
+    margin-right: 290px;
+    transition: 0.3s;
+
+}
+
+
+.password_box {
+    width: 356px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #EDEDED;
+    margin-top: 23px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.password_box p {
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #959595;
+    margin-right: 276px;
+}
+
+.password_box p:hover{
+    font-size: 10px;
+    margin-bottom: 15px;
+    margin-right: 290px;
+    transition: 0.3s;
+
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0;
+}
+
+.social img {
+    width: 82px;
+    height: 39px;
+}
+
+.botao {
+    margin-top: 297px;
+    margin-bottom: 88px;
+}
+
+a {
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #959595;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.personas {
+    width: 1426px;
+    height: 1080px;
+    margin-left: 36px;
+}
